@@ -4,6 +4,6 @@ WORKDIR /app
 
 COPY target/my-app-1.0-SNAPSHOT.jar /app/my-java-app.jar
 
-# start java app with coommand
+# start java app with command and 
 
 CMD ["java", "-jar", "my-java-app.jar"]
